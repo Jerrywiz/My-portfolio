@@ -13,13 +13,14 @@ const Picture: FC = () => {
         animate={{y:10, transition:{duration: 2, ease: "easeInOut", repeat:Infinity, repeatType: "reverse"}}}
         initial={{y: -10}}
         >
-        <Image
+        {/* <Image
           src="/splatboy-dev.webp"
           alt="Profile"
           width={110}
           height={110}
           priority
-        />
+        /> */}
+        <img src="/splatboy-dev.webp" alt=""  />
       </motion.div>
       <motion.h1
         className="font-openSans text-center text-3xl md:text-6xl font-bold mt-6 leading-tight tracking-tighter gradient-text"

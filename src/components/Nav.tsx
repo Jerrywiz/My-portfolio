@@ -5,7 +5,7 @@ import { useAppDispatch } from "../redux/reduxHooks";
 import { setNavHeight } from "../redux/navHeight";
 import { useMediaQuery } from "react-responsive";
 import { Link, animateScroll as scroll } from 'react-scroll'
-import Image from "next/image";
+// import Image from "next/image";
 
 const Nav: FC = () => {
   const [animationState, setAnimationState] = useState("notHovered");
@@ -90,13 +90,13 @@ const Nav: FC = () => {
                   transition={{ duration: 0.8, type: "spring" }}
                   key={animationState}
                 >
-                  <Image
+                  {/* <Image
                     src="/splatboy-dev.webp"
                     alt="image"
                     width={100}
                     height={100}
                     className="max-h-full max-w-full object-cover"
-                  />
+                  /> */}
                 </motion.figure>
               )}
             </AnimatePresence>
