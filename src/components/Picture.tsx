@@ -20,7 +20,7 @@ const Picture: FC = () => {
           height={110}
           priority
         /> */}
-        <img src="/splatboy-dev.webp" alt=""  />
+ 
       </motion.div>
       <motion.h1
         className="font-openSans text-center text-3xl md:text-6xl font-bold mt-6 leading-tight tracking-tighter gradient-text"
