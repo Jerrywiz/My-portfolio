@@ -24,6 +24,7 @@ const Work: FC = () => {
             techTitle={project.techTitle}
             description={project.description}
             repoLink={project.repoLink}
+            demoLink={project.demoLink}
             index={i}
             key={i}
           />

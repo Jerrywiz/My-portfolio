@@ -37,12 +37,12 @@ const Home: FC = () => {
     <>
       <Head>
         <Partytown debug={false} forward={['dataLayer.push']}/>
-        <title>Splatboy Dev</title>
+        <title>Jeremiah Aimiton</title>
         <meta
           name="description"
           content="Splatboy Dev's Portfolio website."
         />
-        <meta property="og:title" content="Splatboy Dev's portfolio" />
+        <meta property="og:title" content="Jeremiah Aiiton  portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://splatboy-dev.xyz" />
         <meta property="og:description" content="Splatboy Dev's portfolio website, built with Next.js." />
