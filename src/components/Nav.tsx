@@ -145,7 +145,7 @@ const Nav: FC = () => {
             layout
           >
             <a onClick={() => setHamburgerState(false)} href="#work">
-              My works
+              My Recent Works
             </a>
             <a onClick={() => setHamburgerState(false)} href="#tools">
               Tools

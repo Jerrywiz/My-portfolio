@@ -19,6 +19,13 @@ const projects = [
     description: "My portfolio website.",
     repoLink: "https://github.com/Jerrywiz/2023-Goals.git",
     demoLink:"https://github.com/Jerrywiz/2023-Goals.git"
+  },
+  {
+    title: "Stesa ",
+    techTitle: "Html, Css, Javascript",
+    description: "My portfolio website.",
+    repoLink: "https://github.com/Jerrywiz/2023-Goals.git",
+    demoLink:"https://stesa.netlify.app"
   }
 ];
 
